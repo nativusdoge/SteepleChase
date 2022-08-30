@@ -484,7 +484,7 @@ margin-left: 50vw;
 }
 
 #funds {font-weight: bold;}
-#funds:before {content: "£";}
+#funds:before {content: "$";}
 
 label, input, select {float:  left; display: block; width: 8vw; margin-bottom: 0.5vh;}
 label {clear: left;}

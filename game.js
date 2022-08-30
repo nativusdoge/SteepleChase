@@ -1,5 +1,5 @@
 function bhumi (){
- 	right = setInterval(horseRight,10);
+ 	right = setInterval(horseRight,120);
 }
 
 function horseRight (){
