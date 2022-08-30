@@ -1,8 +1,11 @@
 function bhumi (){
- 	right = setInterval(horseRight,120);
+ 	right = setInterval(horseRight,100);
 }
 
 function horseRight (){
+ var scroller = document.getElementById('scroll');
+ scroller.scrollLeft = scroller.scrollLeft + 15;
+ 
  document.getElementById("start").style.display="none";
    for(x=1;x<5;x++){
      var pasal = document.getElementById('horse'+x);
@@ -98,9 +101,8 @@ function WhiHor(){
 function scrollTrack() {
 
 	setInterval(function() {
-		var scroller = document.getElementById('scroll');
-
-		scroller.scrollLeft = scroller.scrollLeft + 1;
+		//var scroller = document.getElementById('scroll');
+		//scroller.scrollLeft = scroller.scrollLeft + 1;
 	}, 8);
 	natija();
 } 
